@@ -1,3 +1,3 @@
 import numpy as np
-a = input("input any value")
-print(a)
+a, b = map(int, input("input two value\n").split())
+print(a+b)
